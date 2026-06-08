@@ -66,6 +66,20 @@
       font-weight: bold;
     }
 
+    .sub-list {
+  margin-top: 6px;
+  padding-left: 20px;
+}
+
+.sub-list li {
+  list-style: none;
+  margin: 4px 0;
+}
+
+.sub-list li::before {
+  content: "∟ ";
+  color: #d6b27c;
+}
     footer {
       text-align: center;
       color: #6f665c;
@@ -107,7 +121,13 @@
     <ul>
       <li>好感度システム</li>
       <li>Affection同期システム</li>
-      <li>日常会話カテゴリ</li>
+      <li>
+  日常会話カテゴリ
+  <ul class="sub-list">
+    <li>睡眠について</li>
+    <li>食事について</li>
+  </ul>
+</li>
       <li>LIPファイル(口パク)</li> 
     </ul>
 
