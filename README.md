@@ -12,6 +12,7 @@ Fallout 3 / TTW 用
 
 - 好感度システム
 - Affection同期システム
+- 信頼度システム
 - 日常会話カテゴリ
 - lip生成・(口パクデータ)
 
@@ -24,7 +25,6 @@ Fallout 3 / TTW 用
 
 ### 今後実装予定
 
-- Trustシステム
 - Escort AI
 - Enemy Sense
 - Wet / Cold System
@@ -34,6 +34,9 @@ Fallout 3 / TTW 用
 
 ## 更新履歴
 
+### 2026-06-10
+### 2026-06-09
+### 2026-06-08
 ### 2026-06-07
 
 - GitHub Pages開設
