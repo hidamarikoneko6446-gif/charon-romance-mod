@@ -180,6 +180,123 @@
 
   <section>
     <h2>更新履歴</h2>
+    <h3>2026-06-17</h3>
+<ul>
+  <li>Treat Callout / Treat会話骨組みを実装
+    <ul class="sub-list">
+      <li>呼び止めから手当て開始までの会話ルートを接続</li>
+      <li>手当て後のStimpak使用確認ルートを実装</li>
+      <li>Stimpak使用 / 使用しない / 手当て拒否の各終点処理を実装</li>
+      <li>ゲーム内テスト完了</li>
+    </ul>
+  </li>
+
+  <li>Treat会話ルートの動作確認
+    <ul class="sub-list">
+      <li>Choices表示とTopic接続を確認</li>
+      <li>会話終了時の変数リセットを確認</li>
+      <li>次回以降の回復処理・アイテム消費処理追加に向けて整理</li>
+    </ul>
+  </li>
+
+  <li>ロックピックMemory関連台詞を正式採用
+    <ul class="sub-list">
+      <li>ロックピック失敗時の反応を追加予定</li>
+      <li>ロックピック上達時のMemory反応を追加予定</li>
+    </ul>
+  </li>
+
+  <li>Black Widow / Watchful Eye系会話案を追加検討
+    <ul class="sub-list">
+      <li>戦闘後の好感度・性格分岐会話として整理</li>
+      <li>101の行動傾向とカロンの反応を連動させる方針を確認</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2026-06-16</h3>
+<ul>
+  <li>Treat呼び止めシステム Phase3A の仕様整理
+    <ul class="sub-list">
+      <li>負傷度判定を軽傷 / 中傷 / 重傷に分ける方針を整理</li>
+      <li>HP割合による分岐条件を確認</li>
+      <li>Phase3BのINFO分岐追加に向けて作業内容を整理</li>
+    </ul>
+  </li>
+
+  <li>New Vegas導入イベント案を正式採用
+    <ul class="sub-list">
+      <li>Doc Mitchell宅で目覚めた後に短い回想を挟む方針を整理</li>
+      <li>ベニー襲撃後に101をカロンが発見する導線を採用</li>
+      <li>本編後の関係性とNew Vegas導入部を接続するイベントとして整理</li>
+    </ul>
+  </li>
+
+  <li>開発状況の引き継ぎ資料を整理
+    <ul class="sub-list">
+      <li>対象環境・実装済みシステム・未実装システムを整理</li>
+      <li>カロンとのロマンス方針を再確認</li>
+      <li>現在の開発優先度を整理</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2026-06-15</h3>
+<ul>
+  <li>Treat System会話実装を進行
+    <ul class="sub-list">
+      <li>低・小・中では101から依頼する仕様を整理</li>
+      <li>高ではカロン側から呼び止める仕様を整理</li>
+      <li>最高ではカロン側が強く介入する仕様を整理</li>
+    </ul>
+  </li>
+
+  <li>Treat呼び止めシステム Phase1 実装完了
+    <ul class="sub-list">
+      <li>専用Quest / Scriptを作成</li>
+      <li>TreatAvailable連動処理を実装</li>
+      <li>距離条件と好感度条件を設定</li>
+      <li>ゲーム内テスト完了</li>
+    </ul>
+  </li>
+
+  <li>AutoHeal処理を調整
+    <ul class="sub-list">
+      <li>HP条件を最大HP割合基準へ変更</li>
+      <li>AutoHeal関連の発話処理を調整</li>
+      <li>ゲーム内テスト完了</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2026-06-14</h3>
+<ul>
+  <li>戦闘外治療システム（Treat System）の土台を実装
+    <ul class="sub-list">
+      <li>Bandageアイテムを作成</li>
+      <li>Treat用Globalを作成</li>
+      <li>専用Quest / Monitor Scriptを作成</li>
+      <li>Start Game Enabled設定完了</li>
+    </ul>
+  </li>
+
+  <li>Treat System土台のゲーム内テスト完了
+    <ul class="sub-list">
+      <li>戦闘開始を検知</li>
+      <li>101の被弾を検知</li>
+      <li>戦闘終了後に手当て可能状態へ移行することを確認</li>
+      <li>手当て解禁処理の動作を確認</li>
+    </ul>
+  </li>
+
+  <li>戦闘外治療の今後の仕様を整理
+    <ul class="sub-list">
+      <li>軽傷 / 中傷 / 重傷の分岐方針を整理</li>
+      <li>Doctor's Bag対応を正式採用</li>
+      <li>Super Stimpak対応を正式採用</li>
+    </ul>
+  </li>
+</ul>
     <h3>2026-06-13</h3>
 <ul>
   <li>AutoHeal本体処理を調整
