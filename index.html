@@ -180,6 +180,112 @@
 
   <section>
     <h2>更新履歴</h2>
+    <h3>2026-06-20</h3>
+<ul>
+  <li>Treat System通知Messageを実装
+    <ul class="sub-list">
+      <li>通常手当て時の通知Messageを追加</li>
+      <li>Stimpak使用時の通知Messageを追加</li>
+      <li>Alcohol処置時の通知Messageを追加</li>
+      <li>Scotch専用処置時の通知Messageを追加</li>
+      <li>ゲーム内で左上通知表示を確認</li>
+    </ul>
+  </li>
+
+  <li>Treat Result Scriptへ通知処理を追加
+    <ul class="sub-list">
+      <li>通常手当て処理へShowMessageを追加</li>
+      <li>Stimpak追加処置へShowMessageを追加</li>
+      <li>Alcohol / Scotch処置へShowMessageを追加</li>
+      <li>通知追加後のCompileエラーなしを確認</li>
+    </ul>
+  </li>
+
+  <li>重傷時の特殊拒否処理を整理
+    <ul class="sub-list">
+      <li>最高好感度・重傷時の分岐条件を整理</li>
+      <li>Trust条件による拒否分岐を整理</li>
+      <li>強制処置END方式を作成</li>
+      <li>RefuseTopicの受け皿INFOを整理</li>
+    </ul>
+  </li>
+
+  <li>Scotch特殊処置の通知を追加
+    <ul class="sub-list">
+      <li>Scotch専用処置時に専用Messageを表示</li>
+      <li>酒好き101向け特殊会話の条件方針を整理</li>
+      <li>非酒好き101向けの汎用Alcohol処理方針を整理</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2026-06-19</h3>
+<ul>
+  <li>Scotch専用小会話を実装
+    <ul class="sub-list">
+      <li>段階別のScotch専用会話を実装</li>
+      <li>繰り返し使用時の短文反応を実装</li>
+      <li>ゲーム内テスト完了</li>
+    </ul>
+  </li>
+
+  <li>Alcohol処置ルートの不具合を修正
+    <ul class="sub-list">
+      <li>NoAlcohol判定の誤作動を修正</li>
+      <li>Prompt未設定によるEditorID表示を修正</li>
+      <li>Scotch会話内のChoice接続を修正</li>
+    </ul>
+  </li>
+
+  <li>重傷時の拒否処理方針を整理
+    <ul class="sub-list">
+      <li>最高好感度・重傷時の特殊対応を正式採用</li>
+      <li>ループ方式を中止</li>
+      <li>強制処置END方式へ変更</li>
+    </ul>
+  </li>
+
+  <li>Treat通知Messageの方針を正式採用
+    <ul class="sub-list">
+      <li>手当て結果を左上通知で表示する方針を採用</li>
+      <li>通常処置 / Stimpak / Alcohol / Scotch の通知分岐を整理</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>2026-06-18</h3>
+<ul>
+  <li>Bandageアイテムの確認と翻訳対応
+    <ul class="sub-list">
+      <li>CharonRomanceBandageの設定を確認</li>
+      <li>ゲーム内表示を「包帯」に翻訳</li>
+      <li>Value / Weight設定を確認</li>
+    </ul>
+  </li>
+
+  <li>Treat Systemの包帯消費処理を追加
+    <ul class="sub-list">
+      <li>通常Treatルートに包帯消費処理を追加</li>
+      <li>通常Treatの主要ルートをゲーム内で確認</li>
+      <li>包帯なしで無料治療できる状態を修正</li>
+    </ul>
+  </li>
+
+  <li>Alcohol処置ルートを追加
+    <ul class="sub-list">
+      <li>Whiskeyを使った酒消毒ルートを作成</li>
+      <li>Alcohol処置の初期テスト完了</li>
+      <li>今後の酒消毒分岐に向けて処理を整理</li>
+    </ul>
+  </li>
+
+  <li>バックアップを作成
+    <ul class="sub-list">
+      <li>7zバックアップを作成</li>
+      <li>バックアップ後のテストエラーなしを確認</li>
+    </ul>
+  </li>
+</ul>
     <h3>2026-06-17</h3>
 <ul>
   <li>Treat Callout / Treat会話骨組みを実装
